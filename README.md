@@ -1,6 +1,6 @@
-# SubFlow - Next.js SaaS Template
+# SubFlow
 
-Kickstart your next project and focus on building instead of configuring tools.
+Kickstart your next project and focus on building your application instead of configuring tools.
 
 ## Demo
 
@@ -10,8 +10,8 @@ Kickstart your next project and focus on building instead of configuring tools.
 
 ## Features:
 
-- ⚡ **Next.js 14 with App Router**: Leverage the latest features of Next.js 14 for optimal performance and scalability.
-- 🔓 **User Accounts with Reflow Auth**: Seamlessly manage user authentication social sign in or email+password accounts.
+- ⚡ **Next.js 14**: Leverage the latest features of Next.js for optimal performance and scalability.
+- 🔓 **User Accounts with Reflow**: Seamlessly integrate user auth with social sign-in and email+password accounts.
 - 💳 **Paid Subscriptions**: No-code checkout and recurring payments with support for both Stripe and Paddle.
 - 🔺 **Prisma Integration**: Includes an example database setup for quickly connecting to your DB of choice.
 - 👩‍💻 **Modern tech stack** - Uses popular developer-friendly solutions such as TypeScript, Tailwind and ESlint.
@@ -24,7 +24,7 @@ Kickstart your next project and focus on building instead of configuring tools.
 
 Clone or fork this GitHub repo to get started.
 
-Ahe app is a standard Next.js project. Simply install all dependencies and run the Next.js dev server.
+The app is a standard Next.js project. Simply install all dependencies and run the Next.js dev server.
 
 ```bash
 npm install
@@ -41,7 +41,7 @@ Here is a list of the available env variables:
 | Prop                              | Required | Description                                                                                                                                  |
 | --------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | `APP_NAME`                        | _Yes_    | The name of your app or product. Displayed in various places and used for metadata generation.                                               |
-| `APP_URL`                         | _YES_    | The url address of your app. Use `http://localhost:3000` during local development.                                                           |
+| `APP_URL`                         | _Yes_    | The url address of your app. Use `http://localhost:3000` during local development.                                                           |
 | `REFLOW_PROJECT_ID`               | _Yes_    | The ID of your Reflow project. You can obtain your project ID from the dashboard [settings page](https://reflowhq.com/project/settings).     |
 | `REFLOW_SECRET`                   | _Yes_    | A secret string that will be used for encrypting user sessions. Run `openssl rand -hex 16` in the terminal to generate a random 32-char key. |
 | `REFLOW_TEST_MODE`                | _No_     | Set this to `true` if you want to run the app in [test mode](https://reflowhq.com/docs/help/test-mode/).                                     |
