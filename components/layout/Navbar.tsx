@@ -111,7 +111,7 @@ export async function Navbar() {
 
             <a
               href="https://github.com/danny-mark/subflow"
-              className="text-4xl"
+              className="text-3xl"
               target="_blank"
             >
               <BsGithub />
