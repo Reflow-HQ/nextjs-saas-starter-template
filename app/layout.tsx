@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Toaster } from "react-hot-toast";
 import { Providers } from "@/lib/Providers";
+import SessionSync from "@/components/auth/SessionSync";
 
 import "./globals.css";
 import "react-tooltip/dist/react-tooltip.css";
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} ${urbanist.variable} dark:bg-gray-800 dark:text-white`}
       >
+        <SessionSync />
         <Providers>
           {children}
           <Toaster position="top-center" />
