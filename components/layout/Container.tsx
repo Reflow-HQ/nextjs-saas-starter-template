@@ -26,7 +26,7 @@ export default function Container({
           "max-w-[900px]": size === "md",
         },
         {
-          "my-5 md:my-10": margin,
+          "my-10": margin,
         },
         {
           "p-5": padding,

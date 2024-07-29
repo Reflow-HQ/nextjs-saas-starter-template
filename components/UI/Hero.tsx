@@ -4,7 +4,7 @@ import { BsStripe } from "react-icons/bs";
 export default function Hero() {
   return (
     <div className="hero-gradient flex w-full flex-col place-items-center gap-y-2 px-6 pb-32 pt-24 text-center dark:bg-gray-950 dark:pb-16">
-      <div className="shadow-blue-lg mb-6 flex h-[93px] w-[93px] -rotate-6 items-center justify-center rounded-[17px] bg-white text-5xl dark:bg-gray-100">
+      <div className="mb-6 flex h-[93px] w-[93px] -rotate-6 items-center justify-center rounded-[17px] bg-white text-5xl shadow-blue-lg dark:bg-gray-100">
         <span className="rotate-6">👍️</span>
       </div>
 
@@ -41,7 +41,7 @@ export default function Hero() {
       <img
         src="/hero.webp"
         alt="Hero"
-        className="block rounded-lg object-cover dark:hidden md:max-w-[700px]"
+        className="block -translate-x-5 rounded-lg object-cover dark:hidden md:max-w-[700px]"
       />
     </div>
   );

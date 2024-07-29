@@ -23,8 +23,8 @@ export default function PricingTable({
   );
 
   return (
-    <div className="mx-auto mt-24">
-      <div className="flex flex-col justify-center gap-6 md:flex-row">
+    <div className="mx-auto mt-16 md:mt-24">
+      <div className="flex flex-col justify-center gap-6 gap-y-10 px-6 md:flex-row">
         {plans.map((plan) => (
           <div
             key={plan.id}
