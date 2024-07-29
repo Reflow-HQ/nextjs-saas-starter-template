@@ -6,7 +6,7 @@ import SessionSync from "@/components/auth/SessionSync";
 import "./globals.css";
 import "react-tooltip/dist/react-tooltip.css";
 
-import { inter, urbanist } from "@/lib/fonts";
+import { inter } from "@/lib/fonts";
 import { appName, appURL } from "@/lib/app-config";
 
 export const metadata: Metadata = {
@@ -26,9 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${inter.className} ${urbanist.variable} dark:bg-gray-800 dark:text-white`}
-      >
+      <body className={`${inter.className} dark:bg-gray-800 dark:text-white`}>
         <SessionSync />
         <Providers>
           {children}

@@ -1,12 +1,12 @@
-# SubFlow
+# Next.js SAAS Starter Template
 
 Kickstart your next project and focus on building your application instead of configuring tools.
 
 ## Demo
 
-- [https://subflow.vercel.app/](https://subflow.vercel.app/)
+- [https://next-saas-demo.vercel.app/](https://next-saas-demo.vercel.app/)
 
-[![Demo App](./public/demo.jpg)](https://subflow.vercel.app/)
+[![Demo App](./public/demo.jpg)](https://next-saas-demo.vercel.app/)
 
 ## Features:
 

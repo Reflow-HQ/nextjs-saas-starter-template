@@ -20,7 +20,7 @@ export default function Checkbox({
         checked={checked}
         onChange={onChange}
         className={clsx(
-          "group block size-5 rounded border border border-gray-400 bg-white data-[checked]:bg-blue-500",
+          "group block size-5 rounded border border-gray-400 bg-white data-[checked]:bg-blue-500",
           className,
         )}
       >

@@ -35,7 +35,7 @@ export default function MobileMenu({
 
   return (
     <div>
-      <div className="flex items-center gap-2 sm:hidden">
+      <div className="flex items-center gap-2 md:hidden">
         <ThemeSwitcher />
         <BiMenu
           size={30}
@@ -95,7 +95,7 @@ export default function MobileMenu({
         )}
 
         <a
-          href="https://github.com/danny-mark/subflow"
+          href="https://github.com/Reflow-HQ/nextjs-saas-starter-template"
           className="mt-12 text-4xl"
           target="_blank"
         >

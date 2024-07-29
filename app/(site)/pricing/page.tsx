@@ -21,8 +21,8 @@ export default async function PricingPage() {
       <div className="mb-12">
         <h2 className="mb-5 text-3xl font-bold">Pricing</h2>
         <p className="mb-4 text-lg leading-7">
-          SubFlow makes it super easy to setup subscriptions for your app or
-          SaaS product.
+          Next.js SAAS Starter Template makes it super easy to setup
+          subscriptions for your app.
         </p>
 
         <p className="mb-8 text-lg leading-7">

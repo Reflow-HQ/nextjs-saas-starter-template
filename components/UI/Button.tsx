@@ -1,12 +1,10 @@
 "use client";
 
 import { ReactNode } from "react";
-import { urbanist } from "@/lib/fonts";
 import clsx from "clsx";
 
 export interface ButtonProps {
   onClick?: (e: React.MouseEvent<HTMLElement>) => void;
-  action?: () => void;
   type?: "button" | "submit" | "reset";
   appearance?: ButtonStyleProps;
   disabled?: boolean;
@@ -21,7 +19,6 @@ export interface ButtonStyleProps {
 
 export function Button({
   onClick,
-  action,
   type = "button",
   appearance = {},
   disabled = false,
@@ -29,16 +26,14 @@ export function Button({
 }: ButtonProps) {
   const handleClick = (e: React.MouseEvent<HTMLElement>) => {
     onClick && onClick(e);
-    action && action();
   };
 
   return (
     <button
       className={clsx(
-        urbanist.className,
         "w-fit text-sm text-gray-900 enabled:hover:shadow-md disabled:opacity-50 dark:border-gray-600 dark:text-white ",
         {
-          "bg-gradient-to-r from-cyan-500 to-blue-500 text-white shadow-md hover:from-sky-500 hover:to-blue-500":
+          "bg-blue-600 text-white shadow-md hover:bg-blue-700":
             !appearance.style || appearance.style === "primary",
           "bg-gradient-to-r from-pink-500 to-rose-500 text-white hover:from-rose-500 hover:to-red-500":
             appearance.style === "danger",

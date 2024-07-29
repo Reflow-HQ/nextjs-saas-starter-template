@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-urbanist);
+  font-family: var(--font-inter);
 }
 
 @layer utilities {
@@ -77,6 +77,10 @@ textarea::-webkit-scrollbar-thumb:hover {
 .card-yellow {
   color: #312924;
   background: linear-gradient(60deg, #fdfdfd 20%, #faece4);
+}
+
+.light .hero-gradient {
+  background: linear-gradient(140deg, #ffffff 0%, #ffffff 50%, #cddcfc 100%);
 }
 
 @keyframes blink {

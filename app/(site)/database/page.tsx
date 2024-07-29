@@ -17,7 +17,7 @@ export default async function TasksPage() {
         <h2 className="mb-5 text-3xl font-bold">Database Demo</h2>
 
         <p className="mb-4 text-lg leading-7">
-          SubFlow comes with a flexible{" "}
+          Next.js SAAS Starter Template comes with a flexible{" "}
           <a href="#" className="text-link">
             Prisma configuration
           </a>{" "}

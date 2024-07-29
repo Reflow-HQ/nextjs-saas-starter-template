@@ -6,7 +6,6 @@ import SignInButton from "../auth/SignInButton";
 import UserDropdown from "@/components/auth/UserDropdown";
 import NavLink from "@/components/layout/NavLink";
 import MobileMenu from "@/components/layout/MobileMenu";
-import { urbanist } from "@/lib/fonts";
 import { appName } from "@/lib/app-config";
 import getAuth from "@/auth";
 import { Dropdown, DropdownMenuItem } from "@/components/UI/Dropdown";
@@ -67,15 +66,15 @@ export async function Navbar() {
   ];
 
   return (
-    <div className="sticky top-0 z-10 w-full bg-white px-5 py-3 shadow-subtle dark:bg-gray-900 dark:text-white dark:shadow-gray-950 xl:px-10">
+    <div className="sticky top-0 z-10 w-full bg-white px-5 py-4 shadow-subtle dark:bg-gray-900 dark:text-white dark:shadow-gray-950 xl:px-10">
       <div className="mx-auto flex w-full max-w-[1200px] items-center justify-between">
         <div className="text-xl font-bold">
-          <Link href="/" className="flex items-center gap-2">
-            <Logo size="sm" />
-            <span className={urbanist.className}>{appName}</span>
+          <Link href="/" className="flex items-center gap-3 font-extrabold">
+            <Logo />
+            {appName}
           </Link>
         </div>
-        <div className="ml-10 hidden flex-1 items-center justify-between sm:flex">
+        <div className="ml-10 hidden flex-1 items-center justify-between md:flex">
           <div className="flex items-center gap-7 text-gray-700">
             {navLinkItems.map((item) => (
               <NavLink key={item.href} href={item.href}>
@@ -110,7 +109,7 @@ export async function Navbar() {
             )}
 
             <a
-              href="https://github.com/danny-mark/subflow"
+              href="https://github.com/Reflow-HQ/nextjs-saas-starter-template"
               className="text-3xl"
               target="_blank"
             >

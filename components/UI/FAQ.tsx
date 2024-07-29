@@ -7,7 +7,10 @@ const items = [
       <>
         The starter kit is free and can be used and modified by everyone. It is
         also open-source and available on{" "}
-        <a className="text-link" href="https://github.com/danny-mark/subflow">
+        <a
+          className="text-link"
+          href="https://github.com/Reflow-HQ/nextjs-saas-starter-template"
+        >
           GitHub
         </a>
         .
@@ -30,7 +33,10 @@ const items = [
       <>
         All contributions are welcome! You can contribute by submitting bug
         reports, feature requests, or pull requests on{" "}
-        <a className="text-link" href="https://github.com/danny-mark/subflow">
+        <a
+          className="text-link"
+          href="https://github.com/Reflow-HQ/nextjs-saas-starter-template"
+        >
           GitHub
         </a>
         .
@@ -45,7 +51,7 @@ const items = [
         you can seek help and guidance from the community on our{" "}
         <a
           className="text-link"
-          href="https://github.com/danny-mark/subflow/issues"
+          href="https://github.com/Reflow-HQ/nextjs-saas-starter-template/issues"
         >
           GitHub Discussions
         </a>
